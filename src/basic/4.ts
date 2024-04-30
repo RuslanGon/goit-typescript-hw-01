@@ -7,6 +7,7 @@ function showMessage(message : string) {
     }
     
     function customError(): never {
+     
      throw new Error('Error');
     }
     
