@@ -1,8 +1,4 @@
-let item: string | number;
+let unionType: string | number;
 
-item = 'Hello'; 
-item = 10; 
-
-let state: 'enable' | 'disable';
-
-state = 'enable'; 
+type literalType = "enable" | "disable";
+let example: literalType;
