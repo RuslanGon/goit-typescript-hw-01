@@ -1,4 +1,4 @@
-let unionType: string | number;
+let someConstant: string | number;
 
-type literalType = "enable" | "disable";
-let example: literalType;
+type Status = 'enable' | 'disable';
+let value: Status;
